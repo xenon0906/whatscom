@@ -1,0 +1,395 @@
+.root-child20,
+.root-child21 {
+  align-self: stretch;
+  position: relative;
+}
+.root-child20 {
+  height: 119.938rem;
+  background-color: var(--color-honeydew-100);
+  display: none;
+}
+.root-child21 {
+  height: 1.875rem;
+  background-color: var(--colors-base-00);
+  z-index: 1;
+}
+.live-in-india-content-child {
+  height: 5.25rem;
+  width: 39.375rem;
+  position: relative;
+  border-radius: var(--br-5xs) var(--br-5xs) 0 0;
+  background-color: var(--colors-primary-primary-500);
+  display: none;
+  max-width: 100%;
+}
+.logo15 {
+  text-decoration: none;
+  position: relative;
+  font-size: var(--font-size-7xl);
+  font-weight: 700;
+  font-family: var(--paragraph-4-medium);
+  color: var(--colors-base-00);
+  text-align: left;
+  display: inline-block;
+  min-width: 4.688rem;
+  z-index: 2;
+}
+.live-in-india-content {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-8xl) var(--padding-xl) var(--padding-7xl);
+  background-color: var(--colors-primary-primary-500);
+  align-self: stretch;
+  border-radius: var(--br-5xs) var(--br-5xs) 0 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+  max-width: 100%;
+  z-index: 1;
+}
+.button-more-about-us55:hover,
+.live-in-india-content:hover {
+  background-color: var(--color-forestgreen-100);
+}
+.live-in-india-paragraph-child {
+  width: 39.375rem;
+  height: 78.875rem;
+  position: relative;
+  background-color: var(--colors-base-00);
+  display: none;
+  max-width: 100%;
+}
+.heading2 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 5.125rem;
+  z-index: 2;
+}
+.firefly-food-order-through-mob22 {
+  height: 15.625rem;
+  width: 15.625rem;
+  position: relative;
+  object-fit: cover;
+  min-height: 15.625rem;
+}
+.our-authentication-solution6 {
+  margin: 0;
+}
+.our-authentication-solution-container5 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.we-are-continuing14 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--paragraph-5-regular-size);
+  line-height: 1.5rem;
+  color: var(--color-gray-1000);
+}
+.food-order,
+.order-details {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.order-details {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-5xs);
+}
+.food-order {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-12xs);
+}
+.button-more-about-us-child50 {
+  height: 3.125rem;
+  width: 8.063rem;
+  position: relative;
+  border-radius: var(--br-7xs);
+  background-color: var(--colors-primary-primary-500);
+  display: none;
+}
+.learn-more11 {
+  text-decoration: none;
+  position: relative;
+  font-size: var(--paragraph-4-medium-size);
+  font-weight: 700;
+  font-family: var(--paragraph-4-medium);
+  color: var(--colors-base-00);
+  text-align: center;
+  display: inline-block;
+  min-width: 5.563rem;
+  z-index: 1;
+}
+.button-more-about-us55 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base) var(--padding-lgi) var(--padding-mini)
+    var(--padding-2xl);
+  background-color: var(--colors-primary-primary-500);
+  border-radius: var(--br-7xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.food-order-paragraph,
+.solution-details {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.food-order-paragraph {
+  flex-direction: column;
+  gap: var(--gap-5xl);
+  min-width: 12.188rem;
+}
+.solution-details {
+  background-color: var(--color-forestgreen-400);
+  flex-direction: row;
+  padding: var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-base);
+  max-width: 100%;
+  z-index: 2;
+}
+.authentication-solution1 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-12xs);
+}
+.authentication-solution1,
+.live-in-india-paragraph,
+.live-in-india-paragraph-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.live-in-india-paragraph {
+  flex: 1;
+  background-color: var(--colors-base-00);
+  flex-direction: column;
+  padding: var(--padding-3xl) var(--padding-mini) var(--padding-5xl);
+  gap: var(--gap-base);
+  z-index: 1;
+}
+.live-in-india-paragraph-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 var(--padding-19xl);
+}
+.logo16 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 4.688rem;
+  z-index: 1;
+}
+.lorem-ipsum-content {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-2xl) 0 var(--padding-xl);
+}
+.lorem-ipsum-is-container10 {
+  height: 2.5rem;
+  position: relative;
+  font-size: var(--paragraph-5-regular-size);
+  line-height: 1.25rem;
+  text-align: center;
+  display: inline-block;
+  z-index: 1;
+}
+.lorem-ipsum-content-parent {
+  width: 20.375rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+  max-width: 100%;
+}
+.frame-child87,
+.frame-wrapper52 {
+  align-self: stretch;
+  box-sizing: border-box;
+}
+.frame-wrapper52 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-4xl);
+  max-width: 100%;
+  font-size: var(--font-size-7xl);
+}
+.frame-child87 {
+  height: 0.063rem;
+  position: relative;
+  border-top: 1px solid var(--colors-primary-slate-900);
+  opacity: 0.2;
+  z-index: 1;
+}
+.demos-pages-support19 {
+  position: relative;
+  letter-spacing: -0.1px;
+  line-height: 1.625rem;
+  white-space: pre-wrap;
+  z-index: 1;
+}
+.line-parent1,
+.navigation-links1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.line-parent1 {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-smi);
+  gap: var(--gap-sm);
+  text-align: center;
+  font-size: var(--font-size-mini);
+}
+.frame-child88,
+.line-wrapper1 {
+  align-self: stretch;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frame-child88 {
+  flex: 1;
+  position: relative;
+  border-top: 1px solid var(--colors-primary-slate-900);
+  opacity: 0.2;
+  z-index: 1;
+}
+.line-wrapper1 {
+  height: 1.75rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-8xl);
+}
+.e-honey-creek6 {
+  position: relative;
+  z-index: 1;
+}
+.address-details1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-smi) 0 var(--padding-sm);
+}
+.edit-you-profile11 {
+  text-decoration: underline;
+}
+.edit-you-profile10 {
+  color: inherit;
+}
+.lorem-ipsum-is-container11 {
+  position: relative;
+  line-height: 1.25rem;
+  z-index: 1;
+}
+.address-content2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+  max-width: 100%;
+}
+.address-content-frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--paragraph-5-regular-size);
+}
+.live-in-india-content-parent {
+  width: 39.375rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.125rem;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--paragraph-2-medium-size);
+  color: var(--colors-primary-slate-900);
+  font-family: var(--paragraph-4-medium);
+}
+.root-inner13,
+.root15 {
+  max-width: 100%;
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.root-inner13 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.root15 {
+  width: 53.125rem;
+  background-color: var(--color-honeydew-100);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 12.625rem;
+  gap: var(--gap-11xl);
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 550px) {
+  .firefly-food-order-through-mob22,
+  .order-details {
+    flex: 1;
+  }
+  .solution-details {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .logo15 {
+    font-size: var(--font-size-2xl);
+  }
+  .heading2,
+  .our-authentication-solution-container5 {
+    font-size: var(--paragraph-4-medium-size);
+  }
+  .logo16 {
+    font-size: var(--font-size-2xl);
+  }
+}

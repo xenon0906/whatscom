@@ -1,0 +1,28 @@
+.text51 {
+  position: relative;
+  letter-spacing: -0.2px;
+  line-height: 1.5rem;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 2.375rem;
+}
+.button23 {
+  width: 4.25rem;
+  height: 2.5rem;
+  border-radius: var(--br-7xs);
+  background-color: var(--colors-base-00);
+  border: 1px solid var(--colors-primary-slate-200);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-sm);
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--paragraph-5-regular-size);
+  color: var(--colors-primary-slate-600);
+  font-family: var(--paragraph-4-medium);
+}
