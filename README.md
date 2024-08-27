@@ -1,7 +1,3 @@
-Based on the structure of the project, here's a draft for the new README file:
-
----
-
 # WhatsCom
 
 ## Project Overview
