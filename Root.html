@@ -22,16 +22,34 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Gothic A1:wght@700&display=swap"
     />
-
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <style>
-      @font-face {
-        font-family: "Font Awesome 5 Pro";
-        src: url("./public/Font Awesome 5 Pro Regular.ttf");
-        font-weight: 400;
-      }
+    
+      
     </style>
   </head>
   <body>
+    <div id="main-content">
+       <div id="loading">
+      <div id="spinner"></div>
+  </div>
+  <div id="particles-js"></div>
+  <div id="box">
+      <div class="box1 onlywide animated bounceOutLeft" style="animation-delay:0.7s;"></div>
+    <div class="box1 animated bounceOutRight" style="animation-delay:0.8s;"></div>
+      <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:0.9s;"></div>
+      <div class="box2 animated bounceOutRight" style="animation-delay:0.9s;"></div>
+      <div class="box2 onlywide animated bounceOutRight" style="animation-delay:0.8s;"></div>
+      <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1s;"></div>
+  </div>
+      </div>
+      <script>
+        window.onload = function() {
+            document.getElementById('loading').style.display = 'none';
+            document.getElementById('main-content').style.display = 'block';
+        };
+    </script>
+    
     <div class="root">
       <img class="sh-bg-1-icon" alt="" src="./public/shbg-1@2x.png" />
 
@@ -439,9 +457,6 @@
       </section>
       <section class="clients-logo-wrapper">
         <div class="clients-logo">
-          <div class="vector-wrapper">
-            <img class="vector-icon7" alt="" src="./public/root1wavepng" />
-          </div>
           <div class="star-ratings">  
             <div class="ratings-container">
               <div class="ratings-content">
@@ -747,4 +762,9 @@
       </section>
     </div>
   </body>
+
+  <script src="index.js" type="text/javascript"></script>
+  <script src="particles.js"></script>
+  <script src="app.js"></script>
 </html>
+
