@@ -1652,6 +1652,7 @@
 }
 .span16 {
   color: var(--colors-primary-error-500);
+  padding-bottom: 200%;
 }
 .we-are-trusted-container {
   margin: 0;
@@ -2875,3 +2876,4 @@
   position: fixed;
   z-index: 100;
 }
+
