@@ -29,11 +29,9 @@
     </style>
   </head>
   <body>
+    <div id="preload"></div>
     <div id="main-content">
-       <div id="loading">
-      <div id="spinner"></div>
-  </div>
-  <div id="particles-js"></div>
+   
   <div id="box">
       <div class="box1 onlywide animated bounceOutLeft" style="animation-delay:0.7s;"></div>
     <div class="box1 animated bounceOutRight" style="animation-delay:0.8s;"></div>
@@ -44,10 +42,12 @@
   </div>
       </div>
       <script>
-        window.onload = function() {
-            document.getElementById('loading').style.display = 'none';
-            document.getElementById('main-content').style.display = 'block';
-        };
+        var loader = document.getElementById("preload");
+
+window.addEventListener("load", function() {
+  loader.style.display = "none";
+});
+
     </script>
     
     <div class="root">
