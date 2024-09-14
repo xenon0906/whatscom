@@ -2253,3 +2253,6 @@
   position: fixed;
   z-index: 100;
 }
+body {
+  cursor: url('public/arrow-cursor.svg'), auto; /* The image and fallback */
+}
