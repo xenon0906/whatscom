@@ -2880,3 +2880,106 @@
 body {
   cursor: url('public/arrow-cursor.svg'), auto; /* The image and fallback */
 }
+
+/* Targeting the first client testimonial */
+.client-testimonial:nth-child(1) img {
+  animation: moveImage1OnLoad 3s infinite alternate ease-in-out;
+  transition: transform 0.5s ease-in-out, scale 0.5s ease-in-out; /* Smooth transition on hover-out */
+}
+
+.client-testimonial:nth-child(1):hover img {
+  animation: moveImage1OnHover 0.5s ease-out, bounceEffect 1s ease-in-out; /* Livelier hover animation with bounce */
+  transform: scale(1.1); /* Slight zoom on hover */
+}
+
+/* Targeting the second client testimonial */
+.client-testimonial:nth-child(2) img {
+  animation: moveImage2OnLoad 3s infinite alternate ease-in-out;
+  transition: transform 0.5s ease-in-out, scale 0.5s ease-in-out; /* Smooth transition on hover-out */
+}
+
+.client-testimonial:nth-child(2):hover img {
+  animation: moveImage2OnHover 0.5s ease-out, bounceEffect 1s ease-in-out; /* Livelier hover animation with bounce */
+  transform: scale(1.1); /* Slight zoom on hover */
+}
+
+/* Targeting the third client testimonial */
+.client-testimonial:nth-child(3) img {
+  animation: moveImage3OnLoad 3s infinite alternate ease-in-out;
+  transition: transform 0.5s ease-in-out, scale 0.5s ease-in-out; /* Smooth transition on hover-out */
+}
+
+.client-testimonial:nth-child(3):hover img {
+  animation: moveImage3OnHover 0.5s ease-out, bounceEffect 1s ease-in-out; /* Livelier hover animation with bounce */
+  transform: scale(1.1); /* Slight zoom on hover */
+}
+
+/* Keyframes for the first animation on load */
+@keyframes moveImage1OnLoad {
+  0% {
+      transform: translateX(0);
+  }
+  100% {
+      transform: translateX(15px); /* Enhanced movement for liveliness */
+  }
+}
+
+/* Keyframes for the first animation on hover */
+@keyframes moveImage1OnHover {
+  0% {
+      transform: translateX(0);
+  }
+  100% {
+      transform: translateX(30px); /* Enhanced movement on hover */
+  }
+}
+
+/* Keyframes for the second animation on load */
+@keyframes moveImage2OnLoad {
+  0% {
+      transform: translateY(0);
+  }
+  100% {
+      transform: translateY(15px); /* Enhanced movement for liveliness */
+  }
+}
+
+/* Keyframes for the second animation on hover */
+@keyframes moveImage2OnHover {
+  0% {
+      transform: translateY(0);
+  }
+  100% {
+      transform: translateY(30px); /* Enhanced movement on hover */
+  }
+}
+
+/* Keyframes for the third animation on load */
+@keyframes moveImage3OnLoad {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(8deg); /* Enhanced rotation for liveliness */
+  }
+}
+
+/* Keyframes for the third animation on hover */
+@keyframes moveImage3OnHover {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(15deg); /* Enhanced rotation on hover */
+  }
+}
+
+/* Bounce effect keyframes */
+@keyframes bounceEffect {
+  0%, 100% {
+    transform: translateY(0); /* Start and end point */
+  }
+  50% {
+    transform: translateY(-10px); /* Bounce up slightly */
+  }
+}
