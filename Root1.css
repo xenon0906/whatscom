@@ -673,19 +673,7 @@
   padding: 0 0 var(--padding-8xl-5);
   box-sizing: border-box;
 }
-.client-logos-container {
-  width: 77.5rem;
-  overflow-x: auto;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-  justify-content: space-between;
-  gap: var(--gap-xl);
-  max-width: 100%;
-  font-size: var(--font-size-12xl-6);
-  color: var(--color-silver-100);
-  font-family: var(--font-gothic-a1);
-}
+
 .clients-logo1 {
   flex: 1;
   border-radius: var(--br-lg);
@@ -2045,16 +2033,7 @@
   width: 1.5rem;
   height: 1.5rem;
 }
-.firefly-restaurant-business-pa3 {
-  position: absolute;
-  top: 5.875rem;
-  left: 0;
-  border-radius: var(--br-7xs);
-  width: 17.5rem;
-  height: 21.25rem;
-  object-fit: cover;
-  z-index: 1;
-}
+
 .vision-content-child {
   position: absolute;
   top: 0;
@@ -2982,4 +2961,71 @@ body {
   50% {
     transform: translateY(-10px); /* Bounce up slightly */
   }
+}
+
+/* Inline CSS for demonstration */
+.firefly-restaurant-business-pa3 {
+  display: block; /* Remove space below the image */
+  transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth transition */
+}
+
+.image-container {
+  display: inline-block;
+  overflow: hidden; /* Ensure that any overflow is hidden */
+}
+
+.image-container:hover .firefly-restaurant-business-pa3 {
+  transform: scale(1.1); /* Slightly zoom in */
+  opacity: 0.8; /* Change opacity */
+}
+/* Base styles for the container */
+.client-logos-container {
+  width: 77.5rem;
+  overflow-x: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  font-size: var(--font-size-12xl-6);
+  color: var(--color-silver-100);
+  font-family: var(--font-gothic-a1);
+}
+
+/* Ensure images and other content inside the divs do not resize */
+.logo-container1 img,
+.slack-logo-wrapper img,
+.logo-frame img,
+.logo-wrapper1 img,
+.logo-wrapper2 img,
+.logo-wrapper3 img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--br-7xs); /* Optional: Round the corners if needed */
+}
+
+/* Default styles for logo containers */
+.logo-container1,
+.slack-logo-wrapper,
+.logo-frame,
+.logo-wrapper1,
+.logo-wrapper2,
+.logo-wrapper3 {
+  transition: background-color 0.3s ease, border 0.3s ease, box-shadow 0.3s ease;
+  border: 2px solid transparent; /* Default border to keep layout consistent */
+}
+
+/* Green background color with a border and box-shadow on hover */
+.logo-container1:hover,
+.slack-logo-wrapper:hover,
+.logo-frame:hover,
+.logo-wrapper1:hover,
+.logo-wrapper2:hover,
+.logo-wrapper3:hover {
+  background-color: green; /* Change background color on hover */
+  border: 2px solid darkgreen; /* Add a border on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow to enhance the hover effect */
+  border-radius: var(--br-7xs); /* Match the border-radius with images if needed */
 }

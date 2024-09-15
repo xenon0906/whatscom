@@ -183,64 +183,94 @@ window.addEventListener("load", function() {
                 <div class="star-ratings-2k1">5 Star Ratings (2k+ Review)</div>
               </div>
             </div>
-            <div class="client-logos-container">
+            <style>
+              /* Styles for logo container */
+              .client-logos-container {
+                  display: flex;
+                  flex-wrap: wrap;
+                  gap: 20px;
+              }
+      
+              .logo-container1 {
+                  position: relative;
+                  transition: background-color 0.3s ease; /* Smooth transition for background color */
+              }
+      
+              .logo-container1:hover {
+                  background-color: green; /* Change background color on hover */
+              }
+      
+              .logo-icon4 {
+                  display: block; /* Remove space below the image */
+              }
+      
+              /* Additional styles to ensure the hover effect is visible */
+              .client-logos-container img {
+                  display: block;
+                  max-width: 100%;
+                  height: auto;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="client-logos-container">
               <div class="logo-container1">
-                <img
-                  class="logo-icon4"
-                  loading="lazy"
-                  alt=""
-                  src="./public/logo@2x.png"
-                />
-              </div>
-              <div class="slack-logo-wrapper">
-                <div class="slack-logo">
-                  <div class="slack-icon">
-                    <img
-                      class="group-icon1"
-                      loading="lazy"
-                      alt=""
-                      src="./public/group.svg"
-                    />
-                  </div>
-                  <b class="slack1">slack</b>
-                </div>
-              </div>
-              <div class="logo-frame">
-                <div class="logo3">
-                  <div class="logo-item"></div>
                   <img
-                    class="union-icon1"
+                    class="logo-icon4"
                     loading="lazy"
                     alt=""
-                    src="./public/union.svg"
+                    src="./public/logo@2x.png"
                   />
-                </div>
+              </div>
+              <div class="slack-logo-wrapper">
+                  <div class="slack-logo">
+                      <div class="slack-icon">
+                          <img
+                            class="group-icon1"
+                            loading="lazy"
+                            alt=""
+                            src="./public/group.svg"
+                          />
+                      </div>
+                      <b class="slack1">slack</b>
+                  </div>
+              </div>
+              <div class="logo-frame">
+                  <div class="logo3">
+                      <div class="logo-item"></div>
+                      <img
+                        class="union-icon1"
+                        loading="lazy"
+                        alt=""
+                        src="./public/union.svg"
+                      />
+                  </div>
               </div>
               <div class="logo-wrapper1">
-                <img
-                  class="logo-icon5"
-                  loading="lazy"
-                  alt=""
-                  src="./public/logo-1.svg"
-                />
+                  <img
+                    class="logo-icon5"
+                    loading="lazy"
+                    alt=""
+                    src="./public/logo-1.svg"
+                  />
               </div>
               <div class="logo-wrapper2">
-                <img
-                  class="logo-icon6"
-                  loading="lazy"
-                  alt=""
-                  src="./public/logo-2@2x.png"
-                />
+                  <img
+                    class="logo-icon6"
+                    loading="lazy"
+                    alt=""
+                    src="./public/logo-2@2x.png"
+                  />
               </div>
               <div class="logo-wrapper3">
-                <img
-                  class="logo-icon7"
-                  loading="lazy"
-                  alt=""
-                  src="./public/logo-3.svg"
-                />
+                  <img
+                    class="logo-icon7"
+                    loading="lazy"
+                    alt=""
+                    src="./public/logo-3.svg"
+                  />
               </div>
-            </div>
+          </div>
           </div>
           <img
             class="shape-11-1-icon1"
