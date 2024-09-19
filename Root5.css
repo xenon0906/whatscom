@@ -109,6 +109,7 @@
   margin: 0;
   align-self: stretch;
   height: 5.625rem;
+  width:1270px;
   font-size: inherit;
   line-height: 4rem;
   font-weight: 700;
@@ -118,8 +119,9 @@
 .are-you-passionate {
   width: 49.063rem;
   line-height: 2rem;
-  max-width: 100%;
+  max-width: 1000%;
   z-index: 2;
+  margin: left 100px; ;
 }
 .are-you-passionate-about-trans-wrapper {
   align-self: stretch;
